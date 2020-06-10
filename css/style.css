@@ -1,0 +1,11 @@
+.resume .alert {
+  display: none;
+}
+.resume.invalid input:invalid {
+  border-color: rgb(255, 102, 0);
+}
+.resume.invalid input:invalid ~ .alert {
+  display: block;
+  height: 40px;
+  padding: 5px 20px;
+}
